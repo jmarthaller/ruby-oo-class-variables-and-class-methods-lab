@@ -39,6 +39,7 @@ class Song
       result = Hash.new(0)
       @@artists.each{|v| result[v] += 1}
       result
+      
     end
 
 
